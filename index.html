@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="./src/assets/kaboompics_leaves.jpg" type="image/x-icon" />
+        <title>Adaptive images</title>
+    </head>
+    <body class="body">
+        <img
+            srcset="
+                autumn-480.jpg   480w,
+                autumn-640.jpg   640w,
+                autumn-800.jpg   800w,
+                autumn-1280.jpg 1280w
+            "
+            sizes="(min-width: 1000px) 50vw, 100vw"
+            src="autumn-1280.jpg"
+            alt="autumn"
+            class="image"
+        />
+    </body>
+</html>

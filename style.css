@@ -1,0 +1,14 @@
+.body {
+    overflow-x: hidden;
+}
+
+.image {
+    width: 100%;
+    border-radius: 40px;
+}
+
+@media (min-width: 1000px) {
+    .image {
+        width: 50%;
+    }
+}
